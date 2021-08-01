@@ -21,7 +21,9 @@ app.post('/api/messages', (req, res) => {
   const { alias, text } = req.body;
   const newMessage = { alias, text, postedAt: new Date() };
   db.messages.push(newMessage);
-  res.status(201).json(newMessage);
+  setTimeout(() => {
+    res.status(201).json(newMessage);
+  }, 5000);
   logDb('messages');
 });
 

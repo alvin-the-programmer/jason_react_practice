@@ -22,7 +22,7 @@ const MessageList = () => {
     
   return (
     <div>
-      <MessageCreateForm />
+      <MessageCreateForm getMessages={getMessages} />
       <button onClick={getMessages}>Refresh</button>
       <br />
       {messageItems}

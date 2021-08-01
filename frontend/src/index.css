@@ -1,0 +1,46 @@
+/* 
+2 px border around the form
+horizontally center the form on the page
+don't include the refresh button, include the alias, text, and submit
+*/
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  border: 2px solid black;
+  /* display: inline-block; */
+  padding: 5px;
+}
+
+.formLabel {
+  margin: 3px;
+}
+
+.formSubmit {
+  width: 100%;
+}
+
+.formSubmit:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.flash {
+  border-radius: 3px;
+  color: cornsilk;
+  padding: 16px;
+  text-align: center;
+}
+
+.flashError {
+  background-color: coral;
+}
+
+.flashSuccess {
+  background-color: green;
+}
+
