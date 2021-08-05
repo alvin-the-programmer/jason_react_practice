@@ -64,6 +64,20 @@ Add pagination to the `MessageList`. Each page should be 10 messages long.
 
 Make the page size dynamic. Use a dropdown with options for 10, 45, and 100.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### MessageList LVL5
 
 Add a sort button for each of the `alias`, `text`, and `postedAt` columns. Clicking a sort button

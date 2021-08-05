@@ -26,6 +26,11 @@ const MessageList = () => {
 
   const start = page * pageSize;
   const end = start + pageSize;
+  // page 0: 0-9
+  // page 1: 10-19
+  // page p: 
+
+
 
   const messageItems = messages.slice(start, end).map((message, idx) => <MessageItem key={idx} message={message} />);
 
