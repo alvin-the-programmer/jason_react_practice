@@ -1,8 +1,10 @@
 const MessageItem = ({ message }) => {
   return (
-    <div>
-      {`${message.alias} ${message.text} ${message.postedAt}`}
-    </div>
+    <tr>
+      <td>{ message.alias }</td>
+      <td>{ message.text }</td>
+      <td>{ message.postedAt }</td>
+    </tr>
   )
 };
 
